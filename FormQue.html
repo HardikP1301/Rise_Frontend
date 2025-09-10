@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Structure Outline</title>
+</head>
+
+<body>
+    <h1>
+        <caption>Fill The Form</caption>
+    </h1>
+    <form>
+        <fieldset>
+            <legend>Persoanl Information</legend>
+            <br>
+            <label for="name">Name : </label>
+            <input type="text" required placeholder="Enter Your Name">
+            <br><br>
+            <label for="email">Email :</label>
+            <input type="email" required placeholder="Enter Your Email">
+            <br><br>
+            <label for="password">Password :</label>
+            <input type="password" required placeholder="Enter Your Password">
+            <br><br>
+            <label for="password">Confirm Password :</label>
+            <input type="password" required placeholder="RE Enter Your Password">
+            <br><br>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Contact Information</legend>
+            <br>
+            <label for="tel">Phone Number : </label>
+            <input type="tel" required placeholder="Enter Your Phone Number" max="10">
+            <br><br>
+            <label for="url">Website URL : </label>
+            <input type="url" required placeholder="Enter Your Website">
+            <br><br>
+            <label for="file">Resume : </label>
+            <input type="file" required>
+            <br><br>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Selection Input</legend>
+            <br>
+            <label for="Gender">Gender : </label>
+            <input type="radio" name="Gender"> Male
+            <input type="radio" name="Gender"> Female
+            <br><br>
+            <label for="checkbox">Skills : </label>
+            <input type="checkbox" name="Skills"> HTML
+            <input type="checkbox" name="Skills"> CSS
+            <input type="checkbox" name="Skills"> JavaScript
+            <input type="checkbox" name="Skills"> React
+            <input type="checkbox" name="Skills"> Angular
+            <br><br>
+            <label for="location">Preferred location : </label>
+            <select name="location" id="location">
+                <option value="Vadodara">Vadodara</option>
+                <option value="Ahmedabad">Ahmedabad</option>
+                <option value="Surat">Surat</option>
+                <option value="Bharuch">Bharuch</option>
+            </select>
+            <br><br>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Advance Inputs</legend>
+            <br>
+            <label for="date">Date of Birth : </label>
+            <input type="date">
+            <br><br>
+            <label for="week">Select A Week : </label>
+            <input type="week">
+            <br><br>
+            <label for="month">Select A Month : </label>
+            <input type="month">
+            <br><br>
+            <label for="time">Choose a Time : </label>
+            <input type="time">
+            <br><br>
+            <label for="datetime-local">Choose A local Date & time : </label>
+            <input type="datetime-local">
+            <br><br>
+            <label for="color">Pick Your Favourite Color : </label>
+            <input type="color">
+            <br><br>
+            <label for="number">Age : </label>
+            <input type="number" min="18" max="100" step="1">
+            <br><br>
+            <label for="exp">Range for Experience : </label>
+            <input type="range" min="5" max="100">
+            <br><br>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Text Inputs</legend>
+            <label for="you">About Yourself : </label>
+            <textarea rows="4" id="you"></textarea>
+            <br><br>
+            <label for="">Address : </label>
+            <textarea id=""></textarea>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Hidden Field</legend>
+            <input type="hidden" name="form-version" value="v2">
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Other Controls</legend>
+            <button type="reset">Reset</button>
+            <br><br>
+            <button type="submit">submit</button>
+        </fieldset>
+    </form>
+</body>
+
+</html>
