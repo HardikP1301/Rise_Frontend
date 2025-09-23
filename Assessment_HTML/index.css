@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Navbar {
+    background-color: rgb(59, 59, 59);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.Logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.Menu {
+    display: flex;
+    gap: 20px;
+    font-size: 14px;
+}
+
+.Container {
+    position: relative;
+    align-items: center;
+    text-align: center;
+    color: rgb(26, 25, 28);
+    padding: 400px;
+    font-size: 25px;
+}
+
+.Image {
+    display: flex;
+    position: absolute;
+    height: auto;
+}
+
+.Container button {
+    background-color: rgb(55, 52, 52);
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.Service {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Service div {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
+
+.Service img {
+    width: 100px;
+    height: 100px;
+}
+
+
+
+.Footer {
+    background-color: rgb(59, 59, 59);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    margin-top: 50px;
+}
